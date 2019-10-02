@@ -1,4 +1,6 @@
 const express = require('express');
+const User = require('./User/model')
+const Products = require('./Products/model')
 
 const app = express();
 
